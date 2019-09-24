@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simplicite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.simplicite.fr/base" xsi:schemaLocation="http://www.simplicite.fr/base https://www.simplicite.io/resources/schemas/base.xsd">
+<object>
+	<name>SystemParam</name>
+	<action>upsert</action>
+	<data>
+		<sys_code>ACE_OPTIONS</sys_code>
+		<sys_value><![CDATA[{
+	"invisibles": false,
+	"theme": "solarized_light",
+	"keybindings": "default",
+	"wrap": true
+}]]></sys_value>
+		<sys_type>LFL</sys_type>
+		<sys_desc><![CDATA[Ace editor options:
+
+- `"theme"`: `"eclipse"`, `"github"`, ...
+- `"keybindings"`: `"default"`, `"vim"` or `"emacs"`
+- `"invisibles"`: `true` or `false`
+- `"wrap"`: `true` or `false`]]></sys_desc>
+		<row_module_id.mdl_name>System</row_module_id.mdl_name>
+	</data>
+	<data>
+		<sys_code>SYNTAX</sys_code>
+		<sys_value><![CDATA[true]]></sys_value>
+		<sys_type>APP</sys_type>
+		<sys_desc/>
+		<row_module_id.mdl_name>System</row_module_id.mdl_name>
+	</data>
+</object>
+<object>
+	<name>ShortCut</name>
+	<action>upsert</action>
+	<data>
+		<shc_name>DBAccess</shc_name>
+		<shc_url><![CDATA[[EXPR:HTMLPage.getExternalObjectURL("DBAccess")]]]></shc_url>
+		<shc_target>_blank</shc_target>
+		<shc_order>1</shc_order>
+		<shc_visible>1</shc_visible>
+		<shc_icon>fas/database</shc_icon>
+		<shc_keys/>
+		<row_module_id.mdl_name>System</row_module_id.mdl_name>
+	</data>
+</object>
+<object>
+	<name>Model</name>
+	<action if="exists">delete</action>
+	<data>
+		<mod_name>ALM Plan</mod_name>
+	</data>
+	<data>
+		<mod_name>ALM States</mod_name>
+	</data>
+	<data>
+		<mod_name>ALM Test</mod_name>
+	</data>
+	<data>
+		<mod_name>ALM Ticket States</mod_name>
+	</data>
+	<data>
+		<mod_name>Markdown</mod_name>
+	</data>
+	<data>
+		<mod_name>Model-CreateActivity</mod_name>
+	</data>
+	<data>
+		<mod_name>Model-ModuleDiff</mod_name>
+	</data>
+	<data>
+		<mod_name>ModuleSystem</mod_name>
+	</data>
+</object>
+</simplicite>
