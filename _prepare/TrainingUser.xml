@@ -48,6 +48,15 @@
 		<usp_param_id.sys_desc><![CDATA[Force password change (set at user level)]]></usp_param_id.sys_desc>
 		<row_module_id.mdl_name>ApplicationUsers</row_module_id.mdl_name>
 	</data>
+	<data>
+		<usp_user_id.usr_login>training</usp_user_id.usr_login>
+		<usp_param_id.sys_code>ADMIN_SYSTEM</usp_param_id.sys_code>
+		<usp_value><![CDATA[yes]]></usp_value>
+		<usp_param_id.sys_type>PRV</usp_param_id.sys_type>
+		<usp_param_id.sys_value><![CDATA[no]]></usp_param_id.sys_value>
+		<usp_param_id.sys_desc><![CDATA[Allows ADMIN to change the core-system.]]></usp_param_id.sys_desc>
+		<row_module_id.mdl_name>ApplicationUsers</row_module_id.mdl_name>
+	</data>
 </object>
 <object>
 	<name>Responsability</name>
