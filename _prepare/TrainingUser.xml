@@ -126,4 +126,12 @@
 		<row_module_id.mdl_name>ApplicationUsers</row_module_id.mdl_name>
 	</data>
 </object>
+<object>
+	<name>UserPwd</name>
+	<action>update</action>
+	<data>
+		<usr_login_read>training</usr_login_read>
+		<usr_password>training</usr_password>
+	</data>
+</object>
 </simplicite>
