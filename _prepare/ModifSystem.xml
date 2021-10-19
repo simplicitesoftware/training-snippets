@@ -33,8 +33,8 @@
 	<action>upsert</action>
 	<data>
 		<shc_name>DBAccess</shc_name>
-		<shc_url><![CDATA[[EXPR:HTMLPage.getExternalObjectURL("DBAccess")]]]></shc_url>
-		<shc_target>_blank</shc_target>
+		<shc_url><![CDATA[[EXPR:HTMLTool.getExternalObjectURL("DBAccess")]]]></shc_url>
+		<shc_target>frame_work</shc_target>
 		<shc_order>1</shc_order>
 		<shc_visible>1</shc_visible>
 		<shc_icon>fas/database</shc_icon>
